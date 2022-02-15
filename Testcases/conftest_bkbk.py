@@ -22,15 +22,6 @@ def pytest_runtest_makereport(item, call):
     return rep
 
 
-@pytest.fixture()
-def log_on_failure(request, get_browser):
-    yield
-    item = request.node
-    driver = get_browser
-    if item.rep_call.failed:
-        allure.attach(driver.get_screenshot_as_png(), name="dologin", attachment_type=AttachmentType.PNG)
-
-
 @pytest.fixture(params=["chrome", "firefox"], scope="class")
 def get_browser(request):
     remote_url = "http://localhost:4444/wd/hub"

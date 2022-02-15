@@ -1,3 +1,5 @@
+import self
+
 from Pages.Page_LoginVitalSource import LoginVitalSource
 
 

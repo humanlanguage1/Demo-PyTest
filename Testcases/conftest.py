@@ -22,6 +22,7 @@ def log_on_failure(request, chrome_browser):
     if platform.system() == 'Linux':
         os.system('cd ' + BASE_DIR)
         os.system('docker-compose down &')
+        allure.attach(driver.get_screenshot_as_png(), name="dologin", attachment_type=AttachmentType.PNG)
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
