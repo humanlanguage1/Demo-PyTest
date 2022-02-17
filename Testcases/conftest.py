@@ -20,8 +20,8 @@ def log_on_failure(request, chrome_browser):
     if item.rep_call.failed:
         allure.attach(driver.get_screenshot_as_png(), name="dologin", attachment_type=AttachmentType.PNG)
     if platform.system() == 'Linux':
-        os.system('cd ' + BASE_DIR)
-        os.system('docker-compose down &')
+      #  os.system('cd ' + BASE_DIR)
+       # os.system('docker-compose down &')
         allure.attach(driver.get_screenshot_as_png(), name="dologin", attachment_type=AttachmentType.PNG)
 
 
