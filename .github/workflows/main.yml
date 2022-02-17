@@ -52,4 +52,6 @@ jobs:
 
         # calling via python will also add the current directory to sys.path
     - name: Run unit tests
-      run: python -m pytest --import-mode=append Testcases/test_webdriver_integration.py
+      run: |
+        cd $GITHUB_WORKSPACE
+        python -m pytest --import-mode=append Testcases/test_webdriver_integration.py
