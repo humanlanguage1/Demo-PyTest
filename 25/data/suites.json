@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_webdriver_integration",
+    "children" : [ {
+      "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
+      "uid" : "a8a334ce237f0256",
+      "parentUid" : "3ba90b27bc0bd72a4782b52d78419a1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645113691407,
+        "stop" : 1645113691764,
+        "duration" : 357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'dfdsfjdsf'", "'trainer@way2automation.com'" ]
+    }, {
+      "name" : "test_dologin[java@way2automation.com-sdf]",
+      "uid" : "7095de6cd8da2bb8",
+      "parentUid" : "3ba90b27bc0bd72a4782b52d78419a1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645113693320,
+        "stop" : 1645113693639,
+        "duration" : 319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'sdf'", "'java@way2automation.com'" ]
+    } ],
+    "uid" : "3ba90b27bc0bd72a4782b52d78419a1c"
+  } ],
+  "name" : "suites"
+}

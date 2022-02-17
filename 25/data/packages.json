@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_webdriver_integration",
+    "children" : [ {
+      "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
+      "uid" : "a8a334ce237f0256",
+      "parentUid" : "4c05bdcbdac8bd0bca02243577561068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645113691407,
+        "stop" : 1645113691764,
+        "duration" : 357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'dfdsfjdsf'", "'trainer@way2automation.com'" ]
+    }, {
+      "name" : "test_dologin[java@way2automation.com-sdf]",
+      "uid" : "7095de6cd8da2bb8",
+      "parentUid" : "4c05bdcbdac8bd0bca02243577561068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645113693320,
+        "stop" : 1645113693639,
+        "duration" : 319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'sdf'", "'java@way2automation.com'" ]
+    } ],
+    "uid" : "4c05bdcbdac8bd0bca02243577561068"
+  } ],
+  "name" : "packages"
+}

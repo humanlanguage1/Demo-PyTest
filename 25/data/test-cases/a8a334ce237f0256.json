@@ -1,0 +1,141 @@
+{
+  "uid" : "a8a334ce237f0256",
+  "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
+  "fullName" : "test_webdriver_integration#test_dologin",
+  "historyId" : "e73ad7f62c87f3c5a5f5c989fd62271d",
+  "time" : {
+    "start" : 1645113691407,
+    "stop" : 1645113691764,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "chrome_browser",
+    "time" : {
+      "start" : 1645113689161,
+      "stop" : 1645113691406,
+      "duration" : 2245
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1645113691406,
+      "stop" : 1645113691407,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a300ca77be97359f",
+      "name" : "dologin",
+      "source" : "a300ca77be97359f.png",
+      "type" : "image/png",
+      "size" : 76824
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "chrome_browser::0",
+    "time" : {
+      "start" : 1645113691907,
+      "stop" : 1645113692014,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1645113691765,
+      "stop" : 1645113691907,
+      "duration" : 142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "797d1ac2b892748",
+      "name" : "dologin",
+      "source" : "797d1ac2b892748.png",
+      "type" : "image/png",
+      "size" : 75442
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('log_on_failure')"
+  }, {
+    "name" : "suite",
+    "value" : "test_webdriver_integration"
+  }, {
+    "name" : "host",
+    "value" : "fv-az210-833"
+  }, {
+    "name" : "thread",
+    "value" : "4754-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_webdriver_integration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'dfdsfjdsf'"
+  }, {
+    "name" : "username",
+    "value" : "'trainer@way2automation.com'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('log_on_failure')" ]
+  },
+  "source" : "a8a334ce237f0256.json",
+  "parameterValues" : [ "'dfdsfjdsf'", "'trainer@way2automation.com'" ]
+}
