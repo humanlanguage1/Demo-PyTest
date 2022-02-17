@@ -1,9 +1,9 @@
 import allure
+import pytest
+from allure_commons.types import AttachmentType
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-from allure_commons.types import AttachmentType
-import pytest
 
 
 def get_data():

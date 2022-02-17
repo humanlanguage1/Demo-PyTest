@@ -1,13 +1,14 @@
+import os
 import platform
 import subprocess
 from time import sleep
-import os
+
 import allure
+import pytest
+from allure_commons.types import AttachmentType
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-from allure_commons.types import AttachmentType
-import pytest
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

@@ -1,17 +1,17 @@
+import os
+import platform
 import subprocess
+from configparser import ConfigParser
+from subprocess import Popen
 from time import sleep
 
 import allure
 import pytest
-import platform
-import os
-from subprocess import Popen
 from allure_commons.types import AttachmentType
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
-from selenium.webdriver.chrome.options import Options
-from configparser import ConfigParser
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
