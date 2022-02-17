@@ -58,7 +58,7 @@ jobs:
     - name: Run unit tests
       run: |
         cd $GITHUB_WORKSPACE
-        python -m pytest --import-mode=append Testcases/test_webdriver_integration.py
+        pytest --alluredir=./Reports Testcases/test_webdriver_integration.py
 
     - name: Allure Results
       uses: simple-elf/allure-report-action@master
@@ -69,6 +69,7 @@ jobs:
         allure_report: allure-report
         gh_pages: gh-pages
         allure_history: allure-history
+
     - name: Deploy report to Github Pages
       if: always()
       uses: peaceiris/actions-gh-pages@v2
