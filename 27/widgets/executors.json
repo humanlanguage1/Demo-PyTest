@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://humanlanguage1.github.io/Demo-PyTest",
+  "buildOrder" : 27,
+  "buildName" : "GitHub Actions Run #1889178837",
+  "buildUrl" : "https://github.com/humanlanguage1/Demo-PyTest/actions/runs/1889178837",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://humanlanguage1.github.io/Demo-PyTest/27/"
+} ]
