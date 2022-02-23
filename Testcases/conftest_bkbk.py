@@ -5,13 +5,14 @@ from configparser import ConfigParser
 from subprocess import Popen
 from time import sleep
 
-import allure
 import pytest
 from allure_commons.types import AttachmentType
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
+
+import allure
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
