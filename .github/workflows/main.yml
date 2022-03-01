@@ -15,8 +15,8 @@ jobs:
     - name: Azure Pipelines Action
       uses: Azure/pipelines@v1
       with:
-        azure-devops-project-url: https://dev.azure.com/diegolinares3/Demo01
-        azure-pipeline-name: 'Demo01-CI'
+        azure-devops-project-url: https://dev.azure.com/ronaldpareja87/Proyecto%20de%20Prueba
+        azure-pipeline-name: 'Demo-PyTest.git'
         azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
     - uses: actions/checkout@v2
     - name: Set up Python 3.9
