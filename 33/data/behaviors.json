@@ -1,31 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ {
-    "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
-    "uid" : "d42153c7983edab7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1646164406989,
-      "stop" : 1646164407390,
-      "duration" : 401
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'dfdsfjdsf'", "'trainer@way2automation.com'" ]
-  }, {
-    "name" : "test_dologin[java@way2automation.com-sdf]",
-    "uid" : "68ff9588d6963629",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1646164409211,
-      "stop" : 1646164409600,
-      "duration" : 389
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'sdf'", "'java@way2automation.com'" ]
-  } ],
+  "children" : [ ],
   "name" : "behaviors"
 }

@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Mar 01 19:53:26 GMT 2022","Tue Mar 01 19:53:27 GMT 2022","401","","test_webdriver_integration","","","","test_dologin[trainer@way2automation.com-dfdsfjdsf]",""
-"passed","Tue Mar 01 19:53:29 GMT 2022","Tue Mar 01 19:53:29 GMT 2022","389","","test_webdriver_integration","","","","test_dologin[java@way2automation.com-sdf]",""
