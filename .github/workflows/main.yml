@@ -83,3 +83,13 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
+
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      if: always()
+      env:
+        SLACK_CHANNEL: proyecto-demo
+        SLACK_MESSAGE: 'Report TestCases: ${{ secrets.VAULT_ADDR }}'
+        SLACK_TITLE: Testing successful
+        SLACK_USERNAME: Diego Linares
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
