@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3d6c3282d06d2a0d",
+  "name" : "test_dologin[java@way2automation.com-sdf]",
+  "time" : {
+    "start" : 1646318724372,
+    "stop" : 1646318724707,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3e11bd3d4e6a336",
+  "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
+  "time" : {
+    "start" : 1646318722140,
+    "stop" : 1646318722537,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
