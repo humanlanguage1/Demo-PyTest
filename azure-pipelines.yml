@@ -18,7 +18,7 @@ steps:
     containerregistrytype: 'Azure Container Registry'
     azureContainerRegistry: '{"loginServer":"dockercontainergroup.azurecr.io", "id" : "/subscriptions/734db584-f6dd-4216-9aef-3cc68f9fb431/resourceGroups/mygroup/providers/Microsoft.ContainerRegistry/registries/dockercontainergroup"}'
     dockerComposeFile: '**/docker-compose.yml'
-    dockerComposeCommand: rm
+    dockerComposeCommand: up -d
     action: 'Run a Docker Compose command'
 - script: |
     python -m pip install --upgrade pip
