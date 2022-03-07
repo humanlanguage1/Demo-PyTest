@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='*.blob.core.windows.net', port=80): Max retries exceeded with url: /session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff8302d1f0>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+      "children" : [ {
+        "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
+        "uid" : "33e56ea5e05e6e97",
+        "parentUid" : "e47acd9ab244b1e5de83b9d0be66d936",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646666301892,
+          "stop" : 1646666301892,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'dfdsfjdsf'", "'trainer@way2automation.com'" ]
+      } ],
+      "uid" : "e47acd9ab244b1e5de83b9d0be66d936"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='*.blob.core.windows.net', port=80): Max retries exceeded with url: /session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7eff82ac7070>: Failed to establish a new connection: [Errno -2] Name or service not known'))",
+      "children" : [ {
+        "name" : "test_dologin[java@way2automation.com-sdf]",
+        "uid" : "ed13bd9c8f9ed40d",
+        "parentUid" : "e97f642ebceba2c6404c862e73bcae6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646666302155,
+          "stop" : 1646666302155,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'sdf'", "'java@way2automation.com'" ]
+      } ],
+      "uid" : "e97f642ebceba2c6404c862e73bcae6a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
