@@ -38,8 +38,7 @@ def pytest_runtest_makereport(item, call):
 @pytest.fixture(scope="function")
 def chrome_browser():
     global driver
-    remote_url = "*.blob.core.windows.net"    
-   # remote_url = "http://localhost:4444/wd/hub"
+    remote_url = "http://localhost:4444/wd/hub"
     script_ini_w = "start_dockergrid.bat"
     # script_name = BASE_DIR + script_ini_w
     # script_name = r"C:\Users\USER\PycharmProjects\PageObjectModelFramework\start_dockergrid.bat"
