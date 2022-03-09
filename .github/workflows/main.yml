@@ -1,4 +1,4 @@
-name: VitalSource Test
+name: CI with Azure & Github
 
 on:
   push:
