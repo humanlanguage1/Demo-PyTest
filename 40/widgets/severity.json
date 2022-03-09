@@ -1,20 +1,20 @@
 [ {
-  "uid" : "de99d2432936ea6b",
+  "uid" : "1a63e20c070a6343",
   "name" : "test_dologin[java@way2automation.com-sdf]",
   "time" : {
-    "start" : 1646680913749,
-    "stop" : 1646680914106,
-    "duration" : 357
+    "start" : 1646792307068,
+    "stop" : 1646792307424,
+    "duration" : 356
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2faee382cbe6baa3",
+  "uid" : "c1580a6a35b28d06",
   "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
   "time" : {
-    "start" : 1646680912005,
-    "stop" : 1646680912327,
-    "duration" : 322
+    "start" : 1646792304715,
+    "stop" : 1646792305221,
+    "duration" : 506
   },
   "status" : "passed",
   "severity" : "normal"

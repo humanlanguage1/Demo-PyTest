@@ -1,12 +1,12 @@
 {
-  "uid" : "de99d2432936ea6b",
+  "uid" : "1a63e20c070a6343",
   "name" : "test_dologin[java@way2automation.com-sdf]",
   "fullName" : "test_webdriver_integration#test_dologin",
   "historyId" : "482db84196fd973eefafc30f76b7e00a",
   "time" : {
-    "start" : 1646680913749,
-    "stop" : 1646680914106,
-    "duration" : 357
+    "start" : 1646792307068,
+    "stop" : 1646792307424,
+    "duration" : 356
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "log_on_failure",
     "time" : {
-      "start" : 1646680913748,
-      "stop" : 1646680913748,
-      "duration" : 0
+      "start" : 1646792307067,
+      "stop" : 1646792307068,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "chrome_browser",
     "time" : {
-      "start" : 1646680912574,
-      "stop" : 1646680913748,
-      "duration" : 1174
+      "start" : 1646792305513,
+      "stop" : 1646792307067,
+      "duration" : 1554
     },
     "status" : "passed",
     "steps" : [ ],
@@ -46,9 +46,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a12019ff11dbc963",
+      "uid" : "cf188c3321a7055a",
       "name" : "dologin",
-      "source" : "a12019ff11dbc963.png",
+      "source" : "cf188c3321a7055a.png",
       "type" : "image/png",
       "size" : 76558
     } ],
@@ -61,16 +61,16 @@
   "afterStages" : [ {
     "name" : "log_on_failure::0",
     "time" : {
-      "start" : 1646680914107,
-      "stop" : 1646680914228,
-      "duration" : 121
+      "start" : 1646792307425,
+      "stop" : 1646792307568,
+      "duration" : 143
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "618f54109ef8ac9a",
+      "uid" : "4a9411da562b3964",
       "name" : "dologin",
-      "source" : "618f54109ef8ac9a.png",
+      "source" : "4a9411da562b3964.png",
       "type" : "image/png",
       "size" : 74862
     } ],
@@ -82,9 +82,9 @@
   }, {
     "name" : "chrome_browser::0",
     "time" : {
-      "start" : 1646680914229,
-      "stop" : 1646680914329,
-      "duration" : 100
+      "start" : 1646792307568,
+      "stop" : 1646792307669,
+      "duration" : 101
     },
     "status" : "passed",
     "steps" : [ ],
@@ -103,10 +103,10 @@
     "value" : "test_webdriver_integration"
   }, {
     "name" : "host",
-    "value" : "fv-az246-373"
+    "value" : "fv-az380-175"
   }, {
     "name" : "thread",
-    "value" : "4259-MainThread"
+    "value" : "4282-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -136,6 +136,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('log_on_failure')" ]
   },
-  "source" : "de99d2432936ea6b.json",
+  "source" : "1a63e20c070a6343.json",
   "parameterValues" : [ "'sdf'", "'java@way2automation.com'" ]
 }
