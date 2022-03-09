@@ -4,26 +4,26 @@
     "name" : "test_webdriver_integration",
     "children" : [ {
       "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
-      "uid" : "c1580a6a35b28d06",
+      "uid" : "d36eb8c1eb09ec3f",
       "parentUid" : "3ba90b27bc0bd72a4782b52d78419a1c",
       "status" : "passed",
       "time" : {
-        "start" : 1646792304715,
-        "stop" : 1646792305221,
-        "duration" : 506
+        "start" : 1646851734517,
+        "stop" : 1646851734843,
+        "duration" : 326
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "'dfdsfjdsf'", "'trainer@way2automation.com'" ]
     }, {
       "name" : "test_dologin[java@way2automation.com-sdf]",
-      "uid" : "1a63e20c070a6343",
+      "uid" : "1a9f696a0b614c31",
       "parentUid" : "3ba90b27bc0bd72a4782b52d78419a1c",
       "status" : "passed",
       "time" : {
-        "start" : 1646792307068,
-        "stop" : 1646792307424,
-        "duration" : 356
+        "start" : 1646851736302,
+        "stop" : 1646851736679,
+        "duration" : 377
       },
       "flaky" : false,
       "newFailed" : false,

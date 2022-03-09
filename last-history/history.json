@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c1580a6a35b28d06",
-      "reportUrl" : "https://humanlanguage1.github.io/Demo-PyTest/40//#testresult/c1580a6a35b28d06",
+      "uid" : "d36eb8c1eb09ec3f",
+      "reportUrl" : "https://humanlanguage1.github.io/Demo-PyTest/41//#testresult/d36eb8c1eb09ec3f",
       "status" : "passed",
       "time" : {
-        "start" : 1646792304715,
-        "stop" : 1646792305221,
-        "duration" : 506
+        "start" : 1646851734517,
+        "stop" : 1646851734843,
+        "duration" : 326
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a63e20c070a6343",
-      "reportUrl" : "https://humanlanguage1.github.io/Demo-PyTest/40//#testresult/1a63e20c070a6343",
+      "uid" : "1a9f696a0b614c31",
+      "reportUrl" : "https://humanlanguage1.github.io/Demo-PyTest/41//#testresult/1a9f696a0b614c31",
       "status" : "passed",
       "time" : {
-        "start" : 1646792307068,
-        "stop" : 1646792307424,
-        "duration" : 356
+        "start" : 1646851736302,
+        "stop" : 1646851736679,
+        "duration" : 377
       }
     } ]
   }

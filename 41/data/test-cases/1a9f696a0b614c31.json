@@ -1,22 +1,22 @@
 {
-  "uid" : "c1580a6a35b28d06",
-  "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
+  "uid" : "1a9f696a0b614c31",
+  "name" : "test_dologin[java@way2automation.com-sdf]",
   "fullName" : "test_webdriver_integration#test_dologin",
-  "historyId" : "e73ad7f62c87f3c5a5f5c989fd62271d",
+  "historyId" : "482db84196fd973eefafc30f76b7e00a",
   "time" : {
-    "start" : 1646792304715,
-    "stop" : 1646792305221,
-    "duration" : 506
+    "start" : 1646851736302,
+    "stop" : 1646851736679,
+    "duration" : 377
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "log_on_failure",
+    "name" : "chrome_browser",
     "time" : {
-      "start" : 1646792304714,
-      "stop" : 1646792304714,
-      "duration" : 0
+      "start" : 1646851735118,
+      "stop" : 1646851736301,
+      "duration" : 1183
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "chrome_browser",
+    "name" : "log_on_failure",
     "time" : {
-      "start" : 1646792302122,
-      "stop" : 1646792304714,
-      "duration" : 2592
+      "start" : 1646851736302,
+      "stop" : 1646851736302,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -46,11 +46,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fb82a982163b58e8",
+      "uid" : "4a22fbc1191e1c1a",
       "name" : "dologin",
-      "source" : "fb82a982163b58e8.png",
+      "source" : "4a22fbc1191e1c1a.png",
       "type" : "image/png",
-      "size" : 76824
+      "size" : 76558
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -59,32 +59,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "log_on_failure::0",
-    "time" : {
-      "start" : 1646792305223,
-      "stop" : 1646792305378,
-      "duration" : 155
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "7c89662c342c225d",
-      "name" : "dologin",
-      "source" : "7c89662c342c225d.png",
-      "type" : "image/png",
-      "size" : 75442
-    } ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
-  }, {
     "name" : "chrome_browser::0",
     "time" : {
-      "start" : 1646792305378,
-      "stop" : 1646792305511,
-      "duration" : 133
+      "start" : 1646851736812,
+      "stop" : 1646851736932,
+      "duration" : 120
     },
     "status" : "passed",
     "steps" : [ ],
@@ -94,6 +73,27 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : false
+  }, {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1646851736680,
+      "stop" : 1646851736812,
+      "duration" : 132
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b5722c1fcec3eaf",
+      "name" : "dologin",
+      "source" : "4b5722c1fcec3eaf.png",
+      "type" : "image/png",
+      "size" : 74862
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "tag",
@@ -103,10 +103,10 @@
     "value" : "test_webdriver_integration"
   }, {
     "name" : "host",
-    "value" : "fv-az380-175"
+    "value" : "fv-az210-724"
   }, {
     "name" : "thread",
-    "value" : "4282-MainThread"
+    "value" : "4303-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -122,10 +122,10 @@
   } ],
   "parameters" : [ {
     "name" : "password",
-    "value" : "'dfdsfjdsf'"
+    "value" : "'sdf'"
   }, {
     "name" : "username",
-    "value" : "'trainer@way2automation.com'"
+    "value" : "'java@way2automation.com'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -136,6 +136,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('log_on_failure')" ]
   },
-  "source" : "c1580a6a35b28d06.json",
-  "parameterValues" : [ "'dfdsfjdsf'", "'trainer@way2automation.com'" ]
+  "source" : "1a9f696a0b614c31.json",
+  "parameterValues" : [ "'sdf'", "'java@way2automation.com'" ]
 }

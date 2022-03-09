@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az210-724",
+    "children" : [ {
+      "name" : "4303-MainThread",
+      "children" : [ {
+        "name" : "test_dologin[trainer@way2automation.com-dfdsfjdsf]",
+        "uid" : "d36eb8c1eb09ec3f",
+        "parentUid" : "86c5509d097c83ad47d5a9417bc74ba4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646851734517,
+          "stop" : 1646851734843,
+          "duration" : 326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'dfdsfjdsf'", "'trainer@way2automation.com'" ]
+      }, {
+        "name" : "test_dologin[java@way2automation.com-sdf]",
+        "uid" : "1a9f696a0b614c31",
+        "parentUid" : "86c5509d097c83ad47d5a9417bc74ba4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646851736302,
+          "stop" : 1646851736679,
+          "duration" : 377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'sdf'", "'java@way2automation.com'" ]
+      } ],
+      "uid" : "86c5509d097c83ad47d5a9417bc74ba4"
+    } ],
+    "uid" : "f1e9aa041eeab57e6283c9e58fd51e56"
+  } ],
+  "name" : "timeline"
+}
